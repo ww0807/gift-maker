@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 礼物盲盒 - 用户操作指南</title>
+  <style>
+    :root { --ink:#18362f; --muted:#60736a; --line:#d8e3dc; --paper:#fffefa; --soft:#f3f7f3; --mint:#d8f1e8; --accent:#c75270; }
+    * { box-sizing:border-box; }
+    body { background:#f4f6f3; color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif; line-height:1.7; margin:0; }
+    .page { margin:0 auto; max-width:980px; padding:28px 20px 64px; }
+    .hero { background:var(--ink); border-radius:8px; color:white; padding:42px; }
+    .eyebrow { color:#a9d8c6; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px; letter-spacing:.08em; margin:0 0 8px; }
+    h1 { font-size:34px; line-height:1.25; margin:0 0 12px; }
+    h2 { font-size:23px; line-height:1.35; margin:0 0 14px; }
+    h3 { font-size:17px; margin:0 0 6px; }
+    p { margin:0 0 12px; }
+    .hero p:last-child { color:#d9eae2; margin:0; max-width:720px; }
+    .section { background:var(--paper); border:1px solid var(--line); border-radius:8px; margin-top:18px; padding:28px; }
+    .intro { color:var(--muted); }
+    .checklist { display:grid; gap:10px; grid-template-columns:repeat(3,1fr); margin-top:16px; }
+    .check { background:var(--soft); border:1px solid #dfebe4; border-radius:6px; font-size:14px; padding:13px; }
+    .check strong { display:block; margin-bottom:3px; }
+    .journey { display:grid; gap:14px; margin:0; padding:0; }
+    .journey li { background:var(--soft); border:1px solid #e0ebe4; border-radius:6px; list-style:none; min-height:105px; padding:18px 18px 18px 78px; position:relative; }
+    .journey li::before { background:#286052; border-radius:50%; color:white; content:counter(step); counter-increment:step; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px; height:34px; left:22px; line-height:34px; position:absolute; text-align:center; top:20px; width:34px; }
+    .journey { counter-reset:step; }
+    .journey p { color:var(--muted); font-size:14px; margin:0; }
+    .screen { background:#e8f1eb; border:1px dashed #92b9a8; border-radius:5px; color:#3c6859; display:inline-block; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px; margin:9px 0 0; padding:3px 7px; }
+    .guide-shot { background:white; border:1px solid var(--line); border-radius:6px; margin:16px 0 2px; max-width:760px; overflow:hidden; padding:7px; }
+    .guide-shot img { border-radius:3px; display:block; height:auto; width:100%; }
+    .guide-shot figcaption { color:var(--muted); font-size:12px; padding:7px 3px 1px; }
+    .tips { display:grid; gap:12px; grid-template-columns:1fr 1fr; }
+    .tip { background:var(--soft); border-left:3px solid #6aa894; padding:14px 16px; }
+    .tip.warn { background:#fff6df; border-color:#d4932e; color:#71511d; }
+    .tip p { font-size:14px; margin:0; }
+    table { border-collapse:collapse; font-size:14px; width:100%; }
+    td, th { border-bottom:1px solid var(--line); padding:11px 10px; text-align:left; vertical-align:top; }
+    th { background:var(--soft); font-size:12px; }
+    code { background:#eaf1ec; border-radius:3px; color:#245748; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.9em; padding:2px 4px; }
+    .callout { background:#e7f5ee; border-left:3px solid #3e9472; color:#236449; margin-top:15px; padding:13px 16px; }
+    .footer { color:var(--muted); font-size:13px; padding:22px 4px 0; text-align:center; }
+    @media (max-width:680px) { .page { padding:14px 12px 40px; } .hero,.section { padding:22px; } h1 { font-size:27px; } .checklist,.tips { grid-template-columns:1fr; } .journey li { padding-left:67px; } .journey li::before { left:16px; } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">USER GUIDE</p>
+      <h1>把四张照片做成一套专属礼物</h1>
+      <p>这份指南带你从打开邀请链接开始，完成上传、确认人物、编辑包装盒，最后导出可印刷的 A3 文件。整个过程通常只需一部手机或一台电脑。</p>
+    </header>
+
+    <section class="section">
+      <h2>开始前准备</h2>
+      <p class="intro">打开邀请链接后，不需要注册账号。建议先准备好四张照片，再开始制作。</p>
+      <div class="checklist">
+        <div class="check"><strong>4 张人物照片</strong>每张照片尽量只有一位主体，人物清晰、完整。</div>
+        <div class="check"><strong>稳定网络</strong>上传和生成需要联网，生成过程中请不要关闭页面。</div>
+        <div class="check"><strong>20 分钟左右</strong>包含上传、确认、排版和导出的完整体验时间。</div>
+      </div>
+      <div class="callout"><strong>收到的链接怎么用？</strong>直接点击带有 <code>?token=</code> 的邀请链接即可。首次打开后，邀请码会自动保存在当前浏览器中。</div>
+    </section>
+
+    <section class="section">
+      <h2>一次完整的制作体验</h2>
+      <ol class="journey">
+        <li>
+          <h3>打开邀请链接</h3>
+          <p>打开链接后会直接进入上传页面。你会看到四个照片位，以及“批量上传”入口。此时无需填写邀请码或登录信息。</p>
+          <span class="screen">你会看到：上传照片 · 四个照片位</span>
+        </li>
+        <li>
+          <h3>上传四张照片</h3>
+          <p>依次点击四个照片位选择图片，也可以使用“批量上传”一次选中四张。照片顺序会决定后续人物在包装盒右侧四宫格中的位置。</p>
+          <span class="screen">建议：一张照片对应一位人物</span>
+          <figure class="guide-shot">
+            <img alt="上传图片页面，显示四个照片位和批量上传按钮" src="docs-images/upload-interface.png">
+            <figcaption>上传页：四个照片位都替换成自己的照片后，“开始生成 4 款形象”即可点击。</figcaption>
+          </figure>
+        </li>
+        <li>
+          <h3>开始生成 Q 版人物</h3>
+          <p>确认预览图无误后，点击开始制作。系统会上传照片并生成一组风格统一的四位 Q 版人物。页面会显示生成进度，请耐心等待。</p>
+          <span class="screen">你会看到：正在为你变出四款形象</span>
+          <figure class="guide-shot">
+            <img alt="Q版形象生成页面，显示四个生成卡片和倒计时" src="docs-images/q-version-generating.png">
+            <figcaption>生成中：四张人物卡会依次完成。请保持页面打开，不要重复提交。</figcaption>
+          </figure>
+        </li>
+        <li>
+          <h3>确认四张人物图</h3>
+          <p>生成完成后，进入确认页查看四张独立人物图。它们已经完成背景移除，可以直接用于包装盒和小卡排版。满意后点击“开始设计”。</p>
+          <span class="screen">你会看到：四款形象准备好啦</span>
+          <figure class="guide-shot">
+            <img alt="Q版形象确认页面，显示四个人物卡片和开始设计按钮" src="docs-images/q-version-confirm.png">
+            <figcaption>确认页：四张卡片完成后，“满意，开始设计”会变为可用状态。</figcaption>
+          </figure>
+        </li>
+        <li>
+          <h3>编辑每一张包装盒</h3>
+          <p>在“2D 展开图”中，左侧可切换盒子并编辑赠言、纪念日期、日历标题、脚注、字体和颜色。盒子 1、4 显示为小卡，名称可自定义输入。</p>
+          <span class="screen">你会看到：正面 · 右侧 · 背面 · 左侧</span>
+          <figure class="guide-shot">
+            <img alt="排版工作台，显示包装盒展开图和编辑控制区" src="docs-images/layout-workspace.png">
+            <figcaption>排版工作台：左侧编辑内容和素材，中间实时查看包装盒展开图，顶部可撤销、重做和导出。</figcaption>
+          </figure>
+        </li>
+        <li>
+          <h3>调整人物与装饰</h3>
+          <p>点击包装盒正面的人物，出现控制框后即可拖动、缩放和旋转。也可以从左侧素材库添加装饰或文字，并使用撤销、重做调整效果。</p>
+          <span class="screen">小技巧：人物太靠边时，缩小后再移动</span>
+        </li>
+        <li>
+          <h3>查看专属小卡效果</h3>
+          <p>切换到“专属小卡”查看四张成品组合效果。这里会显示本次生成的四位人物，以及你为小卡 01、小卡 04 设置的名称。</p>
+          <span class="screen">你会看到：四张专属小卡，一套礼物</span>
+        </li>
+        <li>
+          <h3>确认并导出</h3>
+          <p>点击“确认小卡效果”，再点击右上角“导出 4 张 A3”。浏览器会下载四张包装盒展开图 PDF，可交给印刷店印刷后裁切、折叠和粘贴。</p>
+          <span class="screen">最终产物：4 张 A3 印刷 PDF</span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>编辑时可以做什么？</h2>
+      <table>
+        <thead><tr><th>区域</th><th>你可以编辑的内容</th><th>体验提示</th></tr></thead>
+        <tbody>
+          <tr><td>正面</td><td>对应人物图的位置、大小、角度；添加装饰和文字</td><td>点击人物后可拖动、缩放、旋转。</td></tr>
+          <tr><td>右侧</td><td>自动展示本次生成的四位人物</td><td>当前盒子的人物会更突出，方便识别这一张包装盒属于谁。</td></tr>
+          <tr><td>背面</td><td>纪念日期、日历标题、日历脚注、字体、标题颜色</td><td>日期会自动生成对应月份的日历。</td></tr>
+          <tr><td>左侧</td><td>赠言文字、装饰和新增文字</td><td>赠言较长时会自动换行，建议控制在简短的祝福语长度。</td></tr>
+          <tr><td>专属小卡</td><td>小卡 01、小卡 04 的名称</td><td>输入后会同步显示在小卡组合预览中。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>照片选择建议</h2>
+      <div class="tips">
+        <div class="tip"><h3>推荐</h3><p>正面或半身照、人物清楚、光线均匀、主体占画面较大、背景干净。</p></div>
+        <div class="tip"><h3>也可以使用</h3><p>不同场景照片。系统会尽量统一四位人物的 Q 版风格。</p></div>
+        <div class="tip warn"><h3>尽量避免</h3><p>多人合照、人物被大面积遮挡、严重逆光、过度模糊或主体非常小的图片。</p></div>
+        <div class="tip warn"><h3>上传顺序</h3><p>四张照片会固定对应四位人物。上传前先想好每张照片在礼物中的排列顺序。</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>常见问题</h2>
+      <table>
+        <thead><tr><th>情况</th><th>怎么处理</th></tr></thead>
+        <tbody>
+          <tr><td>打开页面提示邀请码无效</td><td>请确认从收到的完整邀请链接打开，不要遗漏链接中的 <code>?token=...</code> 部分。</td></tr>
+          <tr><td>上传后无法开始制作</td><td>检查四个照片位是否都已选择图片，并确认网络正常。</td></tr>
+          <tr><td>生成时间较长</td><td>保持页面打开并等待进度完成。不要反复刷新或重复点击开始制作。</td></tr>
+          <tr><td>人物位置不合适</td><td>进入工作台，点击正面人物，用控制框拖动、缩放和旋转即可调整。</td></tr>
+          <tr><td>不小心改错了</td><td>使用顶部“撤销”恢复上一步，或用“重做”回到之后的状态。</td></tr>
+          <tr><td>换设备后看不到原来的任务</td><td>任务与当前浏览器设备关联。请尽量在同一台设备、同一浏览器内完成制作。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>拿到 PDF 后怎么制作实物？</h2>
+      <ol class="journey">
+        <li><h3>按 A3 原尺寸打印</h3><p>打印时选择 A3 纸张和“实际大小 / 100%”，不要勾选自动缩放。</p></li>
+        <li><h3>沿实线裁切</h3><p>沿裁切线剪下展开图，保留所有连接片和折叠区域。</p></li>
+        <li><h3>沿虚线折叠</h3><p>先用尺子或钝头工具压出折痕，再沿折线折叠，边缘会更整齐。</p></li>
+        <li><h3>粘贴并成型</h3><p>在粘贴片上涂胶，按相邻面顺序固定，即可完成一只专属人物盲盒。</p></li>
+      </ol>
+    </section>
+
+    <footer class="footer">AI 礼物盲盒 · 用户操作指南</footer>
+  </main>
+</body>
+</html>

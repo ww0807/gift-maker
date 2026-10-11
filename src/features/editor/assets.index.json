@@ -1,0 +1,1073 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-15T08:43:23.345Z",
+  "total": 73,
+  "assets": [
+    {
+      "id": "sc-a-woman-serving-customers-at-an-apparel-store",
+      "name": "店员与顾客",
+      "keywords": [
+        "woman",
+        "serving",
+        "customers",
+        "apparel",
+        "store"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-a-woman-serving-customers-at-an-apparel-store",
+      "viewBox": "-4.95 0 430.904 430.904",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-airplane",
+      "name": "飞机",
+      "keywords": [
+        "airplane"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-airplane",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-autumn-of-appetite",
+      "name": "秋日食欲",
+      "keywords": [
+        "autumn",
+        "appetite"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-autumn-of-appetite",
+      "viewBox": "-10.25 0 450.108 450.108",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-balloon-cloud-2",
+      "name": "云朵框二",
+      "keywords": [
+        "balloon",
+        "cloud"
+      ],
+      "category": "frame",
+      "symbolId": "sc-balloon-cloud-2",
+      "viewBox": "0 -9.11 289.383 289.383",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-balloon-cloud",
+      "name": "云朵框",
+      "keywords": [
+        "balloon",
+        "cloud"
+      ],
+      "category": "frame",
+      "symbolId": "sc-balloon-cloud",
+      "viewBox": "-4.52 0 293.889 293.889",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-balloon-ellipsecloud",
+      "name": "椭圆云框",
+      "keywords": [
+        "balloon",
+        "ellipsecloud"
+      ],
+      "category": "frame",
+      "symbolId": "sc-balloon-ellipsecloud",
+      "viewBox": "0 -9.82 284.773 284.773",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-balon-birthday-gift-gift-box-party",
+      "name": "双气球",
+      "keywords": [
+        "balon",
+        "birthday",
+        "gift",
+        "box",
+        "party"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-balon-birthday-gift-gift-box-party",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-box-celebration-gift-package-party",
+      "name": "礼盒线稿",
+      "keywords": [
+        "birthday",
+        "box",
+        "celebration",
+        "gift",
+        "package",
+        "party"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-box-celebration-gift-package-party",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-boxes-gifts",
+      "name": "礼物堆",
+      "keywords": [
+        "birthday",
+        "boxes",
+        "gifts"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-boxes-gifts",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-birthday-cake-cake-food",
+      "name": "蛋糕",
+      "keywords": [
+        "birthday",
+        "cake",
+        "food"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-cake-cake-food",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-birthday-cake-candle-celebration-party",
+      "name": "蜡烛",
+      "keywords": [
+        "birthday",
+        "cake",
+        "candle",
+        "celebration",
+        "party"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-cake-candle-celebration-party",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-cake-celebration-festival-party",
+      "name": "多层蛋糕",
+      "keywords": [
+        "birthday",
+        "cake",
+        "celebration",
+        "festival",
+        "party"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-cake-celebration-festival-party",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-cake-sixteen",
+      "name": "十六岁蛋糕",
+      "keywords": [
+        "birthday",
+        "cake",
+        "sixteen"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-cake-sixteen",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-birthday-calender-celebration-gift-party",
+      "name": "日历",
+      "keywords": [
+        "birthday",
+        "calender",
+        "celebration",
+        "gift",
+        "party"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-calender-celebration-gift-party",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-camera-celebration-party-photo-photography",
+      "name": "相机",
+      "keywords": [
+        "birthday",
+        "camera",
+        "celebration",
+        "party",
+        "photo",
+        "photography"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-camera-celebration-party-photo-photography",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-candy-gift-lollipop-party",
+      "name": "糖果",
+      "keywords": [
+        "birthday",
+        "candy",
+        "gift",
+        "lollipop",
+        "party"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-candy-gift-lollipop-party",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-celebration-christmas-festival-party-2",
+      "name": "派对帽",
+      "keywords": [
+        "birthday",
+        "celebration",
+        "christmas",
+        "festival",
+        "party"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-celebration-christmas-festival-party-2",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-celebration-christmas-party-trumpet-xmas",
+      "name": "礼花筒",
+      "keywords": [
+        "birthday",
+        "celebration",
+        "christmas",
+        "party",
+        "trumpet",
+        "xmas"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-celebration-christmas-party-trumpet-xmas",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-celebration-food-party-pizza",
+      "name": "披萨",
+      "keywords": [
+        "birthday",
+        "celebration",
+        "food",
+        "party",
+        "pizza"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-celebration-food-party-pizza",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-celebration-mic-microphone-multimedia-party",
+      "name": "麦克风",
+      "keywords": [
+        "birthday",
+        "celebration",
+        "mic",
+        "microphone",
+        "multimedia",
+        "party"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-celebration-mic-microphone-multimedia-party",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-cosmetics-lipstick",
+      "name": "口红",
+      "keywords": [
+        "birthday",
+        "cosmetics",
+        "lipstick"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-cosmetics-lipstick",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-birthday-costume-dress",
+      "name": "连衣裙",
+      "keywords": [
+        "birthday",
+        "costume",
+        "dress"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-costume-dress",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-birthday-costume-lips",
+      "name": "唇印",
+      "keywords": [
+        "birthday",
+        "costume",
+        "lips"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-costume-lips",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-birthday-crown-diadem",
+      "name": "皇冠",
+      "keywords": [
+        "birthday",
+        "crown",
+        "diadem"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-crown-diadem",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-birthday-cup-drink-glass-wine",
+      "name": "高脚杯",
+      "keywords": [
+        "birthday",
+        "cup",
+        "drink",
+        "glass",
+        "wine"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-cup-drink-glass-wine",
+      "viewBox": "0 0 32 32",
+      "aspectRatio": 1,
+      "colorMode": "monochrome",
+      "recolorable": true
+    },
+    {
+      "id": "sc-birthday-diamond-gem",
+      "name": "钻石",
+      "keywords": [
+        "birthday",
+        "diamond",
+        "gem"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-diamond-gem",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-birthday-flags-party",
+      "name": "彩旗串",
+      "keywords": [
+        "birthday",
+        "flags",
+        "party"
+      ],
+      "category": "frame",
+      "symbolId": "sc-birthday-flags-party",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-birthday-hat-magic",
+      "name": "魔术帽",
+      "keywords": [
+        "birthday",
+        "hat",
+        "magic"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-birthday-hat-magic",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-carefully-tilt",
+      "name": "礼物袋",
+      "keywords": [
+        "carefully",
+        "tilt"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-carefully-tilt",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-cheers",
+      "name": "碰杯",
+      "keywords": [
+        "cheers"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-cheers",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-cheese-food-food-and-restauran",
+      "name": "奶酪",
+      "keywords": [
+        "cheese",
+        "food",
+        "restauran"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-cheese-food-food-and-restauran",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-christmas-cityscape",
+      "name": "城市剪影",
+      "keywords": [
+        "christmas",
+        "cityscape"
+      ],
+      "category": "background",
+      "symbolId": "sc-christmas-cityscape",
+      "viewBox": "0 -172.63 483.864 483.864",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-christmas-tree",
+      "name": "圣诞树",
+      "keywords": [
+        "christmas",
+        "tree"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-christmas-tree",
+      "viewBox": "-12.04 0 314.15 314.15",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-cocktail",
+      "name": "鸡尾酒",
+      "keywords": [
+        "cocktail"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-cocktail",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-concentration-line",
+      "name": "放射线",
+      "keywords": [
+        "concentration",
+        "line"
+      ],
+      "category": "frame",
+      "symbolId": "sc-concentration-line",
+      "viewBox": "0 -31.28 363.895 363.895",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-coupons",
+      "name": "优惠券",
+      "keywords": [
+        "coupons"
+      ],
+      "category": "frame",
+      "symbolId": "sc-coupons",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-discover",
+      "name": "拆礼物",
+      "keywords": [
+        "discover"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-discover",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-donut-food-food-and-restauran",
+      "name": "甜甜圈",
+      "keywords": [
+        "donut",
+        "food",
+        "restauran"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-donut-food-food-and-restauran",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-donut",
+      "name": "粉甜甜圈",
+      "keywords": [
+        "donut"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-donut",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-eating-and-drinking-droplets",
+      "name": "举杯庆祝",
+      "keywords": [
+        "eating",
+        "drinking",
+        "droplets"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-eating-and-drinking-droplets",
+      "viewBox": "0 -54.08 452.396 452.396",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-eating-and-drinking-partition",
+      "name": "对饮",
+      "keywords": [
+        "eating",
+        "drinking",
+        "partition"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-eating-and-drinking-partition",
+      "viewBox": "0 -79.34 438.481 438.481",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-electronic-organ",
+      "name": "电子琴",
+      "keywords": [
+        "electronic",
+        "organ"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-electronic-organ",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-emu",
+      "name": "小火车",
+      "keywords": [
+        "emu"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-emu",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-fried-chicken-food-food-and-restauran",
+      "name": "炸鸡",
+      "keywords": [
+        "fried",
+        "chicken",
+        "food",
+        "restauran"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-fried-chicken-food-food-and-restauran",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-gift",
+      "name": "粉礼盒",
+      "keywords": [
+        "gift"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-gift",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-gift-2",
+      "name": "蓝礼盒",
+      "keywords": [
+        "gift"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-gift-2",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-gift-3",
+      "name": "爱心礼盒",
+      "keywords": [
+        "gift"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-gift-3",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-grape",
+      "name": "葡萄",
+      "keywords": [
+        "grape"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-grape",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-grapefruit-juice",
+      "name": "果汁",
+      "keywords": [
+        "grapefruit",
+        "juice"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-grapefruit-juice",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-ice-cream-ice-food",
+      "name": "冰淇淋",
+      "keywords": [
+        "ice",
+        "cream",
+        "food"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-ice-cream-ice-food",
+      "viewBox": "0 0 64 64",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-ice-cream",
+      "name": "冰淇淋车",
+      "keywords": [
+        "ice",
+        "cream"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-ice-cream",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-ice-cream-2",
+      "name": "雪糕",
+      "keywords": [
+        "ice",
+        "cream"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-ice-cream-2",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-kid-dressed-up-for-halloween",
+      "name": "礼服情侣",
+      "keywords": [
+        "kid",
+        "dressed",
+        "halloween"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-kid-dressed-up-for-halloween",
+      "viewBox": "0 -21.6 377.449 377.449",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-lighthouse",
+      "name": "灯塔",
+      "keywords": [
+        "lighthouse"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-lighthouse",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-man-with-crutches",
+      "name": "捧脸少女",
+      "keywords": [
+        "man",
+        "crutches"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-man-with-crutches",
+      "viewBox": "-43.65 0 289.782 289.782",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-milk-tea",
+      "name": "奶茶",
+      "keywords": [
+        "milk",
+        "tea"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-milk-tea",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-multi-gift-box",
+      "name": "礼物三件",
+      "keywords": [
+        "multi",
+        "gift",
+        "box"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-multi-gift-box",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-piano",
+      "name": "钢琴",
+      "keywords": [
+        "piano"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-piano",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-polaroid",
+      "name": "拍立得",
+      "keywords": [
+        "polaroid"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-polaroid",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-pumpkin-and-jack-o-lantern",
+      "name": "南瓜灯",
+      "keywords": [
+        "pumpkin",
+        "jack",
+        "lantern"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-pumpkin-and-jack-o-lantern",
+      "viewBox": "0 -142.09 444.732 444.732",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-radio",
+      "name": "收音机",
+      "keywords": [
+        "radio"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-radio",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-sandwich",
+      "name": "三角披萨",
+      "keywords": [
+        "sandwich"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-sandwich",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-santa-claus",
+      "name": "圣诞老人",
+      "keywords": [
+        "santa",
+        "claus"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-santa-claus",
+      "viewBox": "-85.77 0 357.516 357.516",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-snare-drum",
+      "name": "小军鼓",
+      "keywords": [
+        "snare",
+        "drum"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-snare-drum",
+      "viewBox": "0 -7 1038 1038",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-soda-water",
+      "name": "苏打水",
+      "keywords": [
+        "soda",
+        "water"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-soda-water",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-surf",
+      "name": "帆船",
+      "keywords": [
+        "surf"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-surf",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-the-trees",
+      "name": "树丛",
+      "keywords": [
+        "trees"
+      ],
+      "category": "background",
+      "symbolId": "sc-the-trees",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-violin",
+      "name": "小提琴",
+      "keywords": [
+        "violin"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-violin",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-wine",
+      "name": "红酒",
+      "keywords": [
+        "wine"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-wine",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-woman-eating-under-stress",
+      "name": "吃东西的人",
+      "keywords": [
+        "woman",
+        "eating",
+        "under",
+        "stress"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-woman-eating-under-stress",
+      "viewBox": "-6.25 0 383.689 383.689",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-woman-with-a-cane",
+      "name": "沉思少女",
+      "keywords": [
+        "woman",
+        "cane"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-woman-with-a-cane",
+      "viewBox": "-46.52 0 279.931 279.931",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-woman-with-a-computer-2",
+      "name": "捧花少女",
+      "keywords": [
+        "woman",
+        "computer"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-woman-with-a-computer-2",
+      "viewBox": "-129 0 410.357 410.357",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    },
+    {
+      "id": "sc-yogurt",
+      "name": "酸奶杯",
+      "keywords": [
+        "yogurt"
+      ],
+      "category": "decoration",
+      "symbolId": "sc-yogurt",
+      "viewBox": "0 0 1024 1024",
+      "aspectRatio": 1,
+      "colorMode": "multicolor",
+      "recolorable": false
+    }
+  ]
+}

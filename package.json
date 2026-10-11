@@ -1,0 +1,40 @@
+{
+  "name": "gift-maker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "import-assets": "tsx scripts/import-assets.ts"
+  },
+  "dependencies": {
+    "immer": "^11.1.16",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^0.468.0",
+    "opentype.js": "^2.0.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-moveable": "^0.56.0",
+    "react-router-dom": "^7.6.3",
+    "svg2pdf.js": "^2.7.0",
+    "zod": "^3.24.1",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/opentype.js": "^1.3.10",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "oxlint": "^1.75.0",
+    "svgo": "^3.3.4",
+    "tsx": "^4.23.12",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0",
+    "vitest": "^3.0.5"
+  }
+}

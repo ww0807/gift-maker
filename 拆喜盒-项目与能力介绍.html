@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>拆喜盒 - 项目与能力介绍</title>
+  <style>
+    :root { --ink:#173d36; --deep:#0d2824; --muted:#5d716a; --line:#d8e2dc; --paper:#fffefa; --canvas:#f1f5f2; --mint:#dceee5; --accent:#d45c73; --gold:#bb8526; }
+    * { box-sizing:border-box; }
+    @page { margin:13mm 12mm; size:A4; }
+    body { background:var(--canvas); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif; line-height:1.65; margin:0; }
+    .document { background:var(--paper); margin:0 auto; max-width:900px; padding:46px 54px 58px; }
+    .cover { background:var(--deep); color:#fff; min-height:390px; padding:42px; position:relative; }
+    .cover::after { border:1px solid rgba(220,238,229,.28); content:""; height:160px; position:absolute; right:42px; top:48px; transform:rotate(10deg); width:160px; }
+    .eyebrow { color:#6aa994; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11px; font-weight:700; letter-spacing:.12em; margin:0 0 12px; text-transform:uppercase; }
+    .cover h1 { font-size:42px; letter-spacing:0; line-height:1.16; margin:0 0 15px; max-width:530px; }
+    .cover .subtitle { color:#d4e4dc; font-size:18px; margin:0; max-width:540px; }
+    .cover-meta { bottom:37px; display:flex; gap:34px; left:42px; position:absolute; }
+    .cover-meta div { color:#b6cfc4; font-size:12px; }
+    .cover-meta strong { color:#fff; display:block; font-size:14px; }
+    h2 { border-bottom:1px solid var(--line); font-size:24px; line-height:1.3; margin:42px 0 20px; padding-bottom:11px; }
+    h3 { font-size:16px; line-height:1.35; margin:0 0 7px; }
+    p { margin:0 0 12px; }
+    .lead { color:var(--muted); font-size:16px; max-width:720px; }
+    .overview { display:grid; gap:14px; grid-template-columns:repeat(3,1fr); margin-top:20px; }
+    .metric { border:1px solid var(--line); padding:16px; }
+    .metric strong { color:var(--accent); display:block; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:24px; line-height:1.15; margin-bottom:5px; }
+    .metric span { color:var(--muted); font-size:13px; }
+    .challenge { background:#eef6f0; border-left:4px solid #4b9577; margin:20px 0; padding:17px 19px; }
+    .challenge strong { display:block; margin-bottom:4px; }
+    .architecture { background:#f5f8f5; border:1px solid var(--line); display:grid; gap:11px; grid-template-columns:1fr 34px 1fr 34px 1fr; margin-top:20px; padding:23px 18px; text-align:center; }
+    .arch-box { background:#fff; border:1px solid #b9d2c5; min-height:103px; padding:14px 10px; }
+    .arch-box strong { display:block; font-size:14px; margin-bottom:5px; }
+    .arch-box span { color:var(--muted); display:block; font-size:12px; line-height:1.45; }
+    .arch-arrow { align-items:center; color:#4b8872; display:flex; font-size:24px; justify-content:center; }
+    .arch-foot { background:#fdf8ea; border:1px solid #ead9ac; grid-column:1 / -1; padding:10px; }
+    .arch-foot strong { font-size:13px; }
+    .arch-foot span { color:var(--muted); font-size:12px; }
+    .capabilities { display:grid; gap:14px; grid-template-columns:1fr 1fr; }
+    .capability { border:1px solid var(--line); min-height:154px; padding:18px; }
+    .capability .tag { color:#407d68; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11px; font-weight:700; }
+    .capability p { color:var(--muted); font-size:13px; margin:7px 0 0; }
+    .evidence { break-inside:avoid; margin:26px 0 0; }
+    .evidence figure { border:1px solid var(--line); margin:0; padding:7px; }
+    .evidence img { display:block; height:auto; width:100%; }
+    figcaption { color:var(--muted); font-size:12px; padding:8px 3px 2px; }
+    .evidence-grid { display:grid; gap:14px; grid-template-columns:1fr 1fr; }
+    .evidence-grid figure { border:1px solid var(--line); margin:0; padding:6px; }
+    .evidence-grid figcaption { min-height:54px; }
+    .caption-title { color:var(--ink); display:block; font-size:13px; font-weight:700; margin-bottom:2px; }
+    .flow { counter-reset:flow; display:grid; gap:12px; grid-template-columns:repeat(4,1fr); margin:20px 0; }
+    .flow-item { background:#f5f8f5; border-top:3px solid #5b997f; min-height:135px; padding:14px; position:relative; }
+    .flow-item::before { color:#71a590; content:"0" counter(flow); counter-increment:flow; display:block; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px; margin-bottom:8px; }
+    .flow-item strong { display:block; font-size:14px; line-height:1.35; }
+    .flow-item span { color:var(--muted); display:block; font-size:12px; line-height:1.5; margin-top:5px; }
+    .proof { background:#f6fbf7; border:1px solid #c8ded0; margin:20px 0; padding:17px 20px; }
+    .proof ul { margin:7px 0 0; padding-left:20px; }
+    .proof li { color:var(--muted); font-size:13px; margin:4px 0; }
+    .delivery { border-collapse:collapse; font-size:13px; margin-top:12px; width:100%; }
+    .delivery td, .delivery th { border-bottom:1px solid var(--line); padding:10px 8px; text-align:left; vertical-align:top; }
+    .delivery th { background:#f0f5f1; font-size:12px; }
+    code { background:#eaf1ec; color:#27604f; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.9em; padding:1px 4px; }
+    .closing { background:var(--deep); color:#fff; margin-top:38px; padding:30px 34px; }
+    .closing h2 { border:0; color:#fff; font-size:24px; margin:0 0 10px; padding:0; }
+    .closing p { color:#cadbd3; margin:0; }
+    .footer { color:var(--muted); font-size:11px; margin-top:24px; text-align:center; }
+    @media print { body { background:#fff; } .document { max-width:none; padding:0; } .cover { break-after:page; } h2 { break-after:avoid; } .evidence, .evidence-grid, .architecture, .capabilities, .flow { break-inside:avoid; } }
+    @media (max-width:680px) { .document { padding:16px; } .cover { min-height:340px; padding:28px; } .cover h1 { font-size:34px; } .cover::after { right:26px; top:28px; } .cover-meta { left:28px; } .overview,.capabilities,.evidence-grid { grid-template-columns:1fr; } .architecture { grid-template-columns:1fr; } .arch-arrow { height:22px; transform:rotate(90deg); } .flow { grid-template-columns:1fr 1fr; } }
+  </style>
+</head>
+<body>
+  <main class="document">
+    <header class="cover">
+      <p class="eyebrow">Product · Full-stack · AI workflow</p>
+      <h1>拆喜盒<br>AI 驱动的个性化纸艺礼物制作工具</h1>
+      <p class="subtitle">将四张人物照片转化为风格统一的 Q 版形象，并完成可编辑包装盒设计与 A3 印刷文件交付。</p>
+      <div class="cover-meta">
+        <div><strong>项目角色</strong>产品设计 · 前端 · 后端集成 · 部署</div>
+        <div><strong>技术关键词</strong>React · TypeScript · SVG · Seedream · veFaaS · TOS</div>
+      </div>
+    </header>
+
+    <section>
+      <h2>项目概述</h2>
+      <p class="lead">拆喜盒解决“为重要的人做一份有记忆点的实体礼物”这一创作门槛：用户不需要懂绘图或包装设计，只要上传四张照片，即可获得一组统一角色形象和一套可直接印刷、裁切、折叠的定制纸艺礼物。</p>
+      <div class="overview">
+        <div class="metric"><strong>4</strong><span>张人物照片转化为一套角色素材</span></div>
+        <div class="metric"><strong>4</strong><span>份独立 A3 包装盒展开图</span></div>
+        <div class="metric"><strong>2</strong><span>个云端函数承接 Web 与长耗时任务</span></div>
+      </div>
+      <div class="challenge">
+        <strong>核心难点</strong>
+        同时解决消费级创作体验与生产级交付问题：前端要易用、可自由编辑；后端要稳定处理生成与图像分割；导出结果还必须满足纸艺包装的实际印刷尺寸与折叠结构。
+      </div>
+    </section>
+
+    <section>
+      <h2>我完成的端到端链路</h2>
+      <div class="flow">
+        <div class="flow-item"><strong>素材上传</strong><span>四图预览、批量替换、浏览器端设备识别与邀请链接访问。</span></div>
+        <div class="flow-item"><strong>AI 形象生成</strong><span>将四张参考图合成统一风格的 2×2 角色板，再进行背景移除与四图拆分。</span></div>
+        <div class="flow-item"><strong>可视化排版</strong><span>对文字、配色、主题、装饰和人物位置进行实时编辑、撤销重做与自动保存。</span></div>
+        <div class="flow-item"><strong>印刷交付</strong><span>生成四页横向 A3 矢量 PDF，保留裁切、折线和粘贴结构，支持线下成型。</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>能力一：产品与交互设计</h2>
+      <p class="lead">我把复杂的创作流程拆成“上传 → Q版形象 → 排版预览”三步，让用户始终知道当前状态、下一步和可回退路径。编辑工作台将高频操作集中在左侧，而把包装效果作为中心视觉焦点。</p>
+      <div class="evidence-grid">
+        <figure>
+          <img alt="拆喜盒的照片上传页面" src="docs-images/upload-interface.png">
+          <figcaption><span class="caption-title">证据 01｜上传体验</span>四张照片位、单张替换与批量上传并行；未替换示例图时禁止开始生成，减少无效提交。</figcaption>
+        </figure>
+        <figure>
+          <img alt="拆喜盒的Q版形象生成页面" src="docs-images/q-version-generating.png">
+          <figcaption><span class="caption-title">证据 02｜异步状态设计</span>以进度导航、倒计时、生成状态和四个角色卡片承接等待过程，避免用户在长任务中失去反馈。</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>能力二：复杂前端编辑器与印刷输出</h2>
+      <p class="lead">工作台不是静态预览，而是一套基于 React、TypeScript、Zustand 和 SVG 的编辑系统。包装盒的四个可编辑面、人物的移动/缩放/旋转、素材层级、文本字体与颜色都可实时更新，并同步映射到实际展开图。</p>
+      <div class="evidence">
+        <figure>
+          <img alt="拆喜盒包装盒排版工作台" src="docs-images/layout-workspace.png">
+          <figcaption><span class="caption-title">证据 03｜可编辑纸艺工作台</span>左侧是主题、面板、素材和单盒变量控制区；中间为 2D 包装盒展开图；顶部支持撤销、重做、自动保存和导出门禁。</figcaption>
+        </figure>
+      </div>
+      <div class="capabilities" style="margin-top:16px;">
+        <article class="capability"><span class="tag">SVG / INTERACTION</span><h3>把包装结构转为可编辑坐标系统</h3><p>基于固定纸张规格和面板边界定义包装展开图，使用户元素能以统一坐标、缩放和旋转规则落入对应区域。</p></article>
+        <article class="capability"><span class="tag">PDF / PRINT</span><h3>从编辑画布到印刷交付</h3><p>使用 <code>jsPDF</code> 与 <code>svg2pdf</code> 输出横向 A3；在导出前将字体转为路径，避免印刷环境缺字或字体替换。</p></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>能力三：AI 图像工作流与云端架构</h2>
+      <p class="lead">我将生成链路设计成异步任务，避免 Web 请求被模型调用和图像处理阻塞。Web 函数负责权限、任务创建、预签名上传与状态查询；生成函数负责模型调用、抠图、透明 PNG 校验和四宫格拆分。</p>
+      <div class="architecture">
+        <div class="arch-box"><strong>React Web</strong><span>上传、编辑、任务轮询<br>草稿保存与 PDF 导出</span></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-box"><strong>veFaaS Web 函数</strong><span>邀请码与设备校验<br>预签名地址、任务状态<br>静态站点同源托管</span></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-box"><strong>veFaaS 任务函数</strong><span>Seedream 生图<br>AI MediaKit 抠图<br>Sharp 切分透明人物图</span></div>
+        <div class="arch-foot"><strong>TOS 作为轻量任务存储</strong><span> · 原图、生成图、<code>status.json</code>、<code>draft.json</code>、按设备的每日配额记录</span></div>
+      </div>
+      <div class="proof">
+        <strong>工程化处理要点</strong>
+        <ul>
+          <li>生成阶段以 <code>UPLOADING → GENERATING → READY_FOR_REVIEW / FAILED</code> 状态机对前端暴露进度和失败信息。</li>
+          <li>先生成一张严格 2×2 的角色板，再统一抠图、按格切分，保证四个人物的风格和透明背景处理一致。</li>
+          <li>为 Linux Native 运行时打包匹配的 <code>sharp</code> 依赖及 Node 二进制，规避本机 macOS 构建产物无法直接在函数环境运行的问题。</li>
+          <li>通过预签名 URL 直传图片，减少应用服务器中转；邀请码、设备 ID 与每日额度共同约束访问与使用频次。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>交付物与可验证结果</h2>
+      <table class="delivery">
+        <thead><tr><th>交付项</th><th>实现与验证方式</th></tr></thead>
+        <tbody>
+          <tr><td>Web 应用</td><td>React + TypeScript 前端，覆盖上传、生成反馈、形象确认、排版与导出闭环。</td></tr>
+          <tr><td>AI 图像流水线</td><td>Seedream 角色板生成、AI MediaKit 人像抠图、Sharp 透明 PNG 切分与尺寸/透明通道校验。</td></tr>
+          <tr><td>云端任务系统</td><td>veFaaS Web 函数与任务函数拆分部署，TOS 承载任务 JSON、图片对象和可恢复处理数据。</td></tr>
+          <tr><td>印刷文件</td><td>浏览器端导出 4 页横向 A3 矢量 PDF；文本转曲，适配线下打印、裁切、折叠与粘贴。</td></tr>
+          <tr><td>发布产物</td><td>已生成按时间戳命名的 Web / Generator 双 ZIP 部署包，并通过清单记录构建版本。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="closing">
+      <h2>这个项目体现的能力</h2>
+      <p>从用户需求抽象、交互闭环设计，到 AI 能力接入、异步任务拆分、云端存储、跨平台部署和印刷文件生成，我完成了一个能真正被用户使用和交付实体成果的 AI 创作产品原型。</p>
+    </section>
+    <footer class="footer">拆喜盒 · 项目与能力介绍</footer>
+  </main>
+</body>
+</html>
